@@ -1,2 +1,2 @@
 # bootstrap-portfolio
-Portfolio website made with Bootstrap
+Portfolio website made with HTML, CSS and Bootstrap. 
