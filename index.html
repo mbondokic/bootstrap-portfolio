@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>John Doe - Resume</title>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+   <!-- Font awesome -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./css/styles.min.css">
+
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="50">
+
+  <!-- Navbar -->
+  <nav id="navbar" class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#" onclick="window.scrollTo(0, 0);">JD</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <!-- <span class="navbar-toggler-icon"></span> -->
+        <div id="nav-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <i class="far fa-user d-block d-md-none"></i>
+            <a class="nav-link active" href="#intro">Profile</a>
+          </li>
+          <li class="nav-item">
+            <i class="fas fa-graduation-cap d-block d-md-none"></i>
+            <a class="nav-link" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <i class="fas fa-code d-block d-md-none"></i>
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <i class="fas fa-laptop-code d-block d-md-none"></i>
+            <a class="nav-link" href="#experience">Experience</a>
+          </li>
+          <li class="nav-item">
+            <i class="far fa-comments d-block d-md-none"></i>
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul> 
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Landing Section -->
+  <div id="landing" class="container-fluid">
+    <div class="overlay"></div>
+    <div class="row">
+      <div class="col-md-6 text-center d-flex justify-content-center justify-content-lg-end">
+        <img src="./img/profile-img.jpg" alt="Profile picture" class="profile-picture">
+      </div>
+      <div class="col-md-6 text-center name-role">
+        <h1 class="name display-3">John Doe</h1>
+        <h2 class="role display-5"> &lt;!-- Web Developer --&gt; </h2>
+      </div>
+    </div>
+
+    <a href="#intro">
+      <img src="./img/arrow-down.png" alt="Arrow" class="landing-arrow">
+    </a>
+  </div>
+
+  <!-- Introduction Section -->
+  <div id="intro" class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h2 class="mb-5">Introduction</h1>
+      </div>
+      <div class="col-md-4">
+      </div>
+      <div class="col-md-4">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-4">
+        <h3>Heading</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro quam adipisci quasi reiciendis temporibus similique quisquam amet maxime a enim, molestiae distinctio maiores veritatis officia libero ab voluptatem rem. Laboriosam.</p>
+      </div>
+
+      <div class="col-md-4">
+        <h3>Heading</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro quam adipisci quasi reiciendis temporibus similique quisquam amet maxime a enim, molestiae distinctio maiores veritatis officia libero ab voluptatem rem. Laboriosam.</p>
+      </div>
+
+      <div class="col-md-4">
+        <h3>Heading</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro quam adipisci quasi reiciendis temporibus similique quisquam amet maxime a enim, molestiae distinctio maiores veritatis officia libero ab voluptatem rem. Laboriosam.</p>
+        <ul class="dots dots-right">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Education Picture -->
+  <div id="educationDivider" class="container-fluid parallax">
+  </div>
+
+  <!-- Education Section -->
+  <div id="education" class="container text-center">
+    <div class="row">
+      <div class="col-md-4">
+      </div>
+      <div class="col-md-4">
+        <h2 class="mb-5">Education</h1>
+      </div>
+      <div class="col-md-4">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <i class="fab fa-leanpub"></i>
+          <div class="card-body">
+            <h5 class="card-title">High School</h5>
+            <p class="card-text">- Degree -</p>
+          </div>
+          <div class="card-footer bg-transparent border-secondary text-muted">
+            <small>2007 - 2011</small>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <i class="fas fa-graduation-cap"></i>
+          <div class="card-body">
+            <h5 class="card-title">College</h5>
+            <p class="card-subtitle mb-2">Department</p>
+            <p class="card-text">-- Degree --</p>
+          </div>
+          <div class="card-footer bg-transparent border-secondary text-muted">
+            <small>2011 - 2017</small>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 clearfix">
+        <div class="card">
+          <i class="fas fa-code"></i>
+          <div class="card-body">
+            <h5 class="card-title">Courses</h5>
+            <p class="card-text">IT school</p>
+          </div>
+          <div class="card-footer bg-transparent border-secondary text-muted">
+            <small>21.10.2017 - 11.02.2018</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Divider -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <ul class="dots dots-left">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <p class="divider-line"></p>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="row text-center">
+      <div class="col-md-12">
+        <img src="./img/arrow-down-silver.png" alt="">
+      </div>
+    </div>
+  </div>
+
+  <!-- Skills Section -->
+  <div id="skills" class="container-fluid parallax">
+    <div class="container content">
+      <div class="row text-center">
+        <div class="col-md-12">
+          <h2>Skills</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-5">
+          <h4>Programming languages and tools</h4>
+          <ul class="list-inline">
+            <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+            <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
+            <li class="list-inline-item"><i class="fab fa-sass"></i></li>
+            <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
+            <li class="list-inline-item"><i class="fab fa-bootstrap"></i></li>
+            <li class="list-inline-item"><i class="fab fa-react"></i></li>
+            <li class="list-inline-item"><i class="fab fa-angular"></i></li>
+            <li class="list-inline-item"><i class="fab fa-npm"></i></li>
+          </ul>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-5">
+          <h4>Workflow</h4>
+          <ul class="list-inline">
+            <li><i class="far fa-check-circle"></i> Mobile-First, Responsive Design</li>
+            <li><i class="far fa-check-circle"></i> Cross Browser Testing & Debugging</li>
+            <li><i class="far fa-check-circle"></i> Cross Functional Teams</li>
+            <li><i class="far fa-check-circle"></i> Agile Development & Scrum</li>
+          </ul>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+  <!-- Experience Section -->
+  <div id="experience" class="container text-center">
+    <div class="row">
+      <div class="col-md-12">
+        <ul class="dots dots-right">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+        <h2 class="me-3">Experience</h1>
+      </div>
+    </div>
+  
+    <div class="container">
+      <div class="row mt-5">
+
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h6 class="text-center mb-0">Project name</h6>
+            </div>
+            <div class="card-body">
+              <a href="#" target="_blank">
+                <img src="./img/project.jpg" alt="Project cover" class="img-fluid">
+                <h6>View project</h6>
+              </a> 
+              <!-- <div class="card-footer bg-transparent border-secondary text-muted mt-5">
+                <a href="#" target="_blank">Link to the project</a>
+              </div> -->
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-header">
+              <h6 class="text-center mb-0">Project name</h6>
+            </div>
+            <div class="card-body">
+              <a href="#" target="_blank">
+                <img src="./img/project.jpg" alt="Project cover" class="img-fluid">
+                <h6>View project</h6>
+              </a> 
+              <!-- <div class="card-footer bg-transparent border-secondary text-muted mt-5">
+                <a href="#" target="_blank">Link to the project</a>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact Picture -->
+  <div id="contactDivider" class="container-fluid mt-5 parallax">
+    <div class="row">
+      <div class="col-md-12">
+        <ul class="dots">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <p class="divider-line display-4">Contact</p>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-md-12 arrow">
+        <a href="#contact">
+          <img src="./img/arrow-down-silver.png" alt="" class="growIn">
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact Section -->
+  <div id="contact" class="container">
+    <div class="row align-items-center">
+      <div class="col-md-12 col-lg-4">
+        <p class="contactLine1"><span>Line 1</span></p>
+        <p class="contactLine2"><span>Line 2</span></p>
+
+
+        <form onsubmit="submitForm(); return false;" class="row g-3 needs-validation" novalidate>
+          <div class="col-md-12 mt-0 ps-0">
+            <div class="form-floating">
+              <input id="name" type="text" name="name" class="form-control" placeholder="Full Name" required>
+              <label for="name">Full Name</label>
+            <div class="valid-feedback">
+              Looks good.
+            </div>
+            <div class="invalid-feedback">
+              Please provide a valid name.
+            </div>
+          </div>
+          </div>
+          <div class="col-md-12 mt-0 ps-0">
+            <div class="form-floating">
+              <input id="email" type="email" name="email" class="form-control" placeholder="Email" required>
+              <label for="email" class="form-label">Email</label>
+            <div class="valid-feedback">
+              Looks good.
+            </div>
+            <div class="invalid-feedback">
+              Please provide a valid email.
+            </div>
+          </div>
+          </div>
+          <div class="col-md-12 mt-0 ps-0">
+            <div class="form-floating">
+              <textarea id="message" type="text" name="message" rows="5" class="form-control" placeholder="Message" required></textarea>
+              <label for="message" class="form-label">Message</label>
+            <div class="valid-feedback">
+              Looks good.
+            </div>
+            <div class="invalid-feedback">
+              Please enter a message in the textarea.
+            </div>
+          </div>
+          </div>
+          <div class="col-12">
+            <button class="btn btn-outline-secondary" type="submit">Send
+              <i class="fas fa-envelope"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+
+      <div class="col-md-12 col-lg-4 text-center mt-5 social-network">
+        <p class="network">Network</p>
+        <p class="social">Social</p>
+      </div>
+
+      <div class="col-md-12 col-lg-4 connect mt-5">
+        <div>
+          <a href="https://www.facebook.com/milos.bondokic" target="_blank" class="fb">
+            <i class="fab fa-facebook-f"></i>acebook
+          </a> 
+        </div> 
+        <div>
+          <a href="https://www.instagram.com/?hl=en" target="_blank" class="instagram">
+            <i class="fab fa-instagram"></i>
+            Instagram
+          </a> 
+        </div>
+        <div>
+          <a href="https://www.linkedin.com/in/milo%C5%A1-bondoki%C4%87/" target="_blank" class="linkedin">
+            Linked<i class="fab fa-linkedin-in"></i>
+          </a>
+        </div>
+      </div>
+    </div>  
+  </div>
+
+  <!-- Divider -->
+  <div id="dividerFooter" class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <ul class="dots dots-right">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="row text-center">
+      <div class="col-md-12">
+        <p class="divider-line me-3"></p>
+        <img src="./img/arrow-down-silver.png" alt="">
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 scroll-top order-2 order-sm-1">
+          <a href="#landing" class="d-none d-sm-inline-block">
+            <i class="fas fa-chevron-up"></i>
+          </a> 
+        </div>
+        <div class="col-sm-6 footer-contact order-1 order-sm-2">
+          
+          <p>
+            <i class="far fa-envelope"></i>
+            <a href="mailto:john.doe@example.com">john.doe@example.com</a> 
+          </p>
+          <p>
+            <i class="fas fa-mobile-alt"></i>
+            <a href="phoneto:+123456">+123456</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="row copyright mt-4">
+        <div class="col-md-12 text-center">
+          <small><sup>&copy;</sup> JohnDoe - 2021</small>
+          <div class="scroll-top-mobile">
+            <a href="#landing" class="d-block d-sm-none">
+            <i class="fas fa-chevron-up"></i>
+          </a> 
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <!-- <script type="text/javascript" src="./js/bootstrap.bundle.min.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="./js/scripts.js"></script>
+  <script>
+    
+  </script>
+</body>
+</html>

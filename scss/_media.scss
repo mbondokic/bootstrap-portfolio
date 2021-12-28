@@ -1,0 +1,58 @@
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+ .nav-item {
+   margin-left: 35% !important;
+ }
+ #experience {
+   h2 {
+    width: 50%;
+  }
+ }
+ #contactDivider {
+  .divider-line {
+    width: 20%;
+  }
+  .arrow {
+    display: block;
+    img {
+      margin-left: 27.5%;
+      margin-top: 2%;
+    }
+  }
+ }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+  .navbar-collapse.show {
+    min-height: auto !important;
+  }
+  .navbar-nav {
+    height: auto !important;
+    margin-top: 0 !important;
+    justify-content: center;
+    li {
+      opacity: 1 !important;
+    }
+    .nav-item {
+      margin: 0 !important;
+      width: auto !important;
+    }
+    a {
+      font-size: 1.5rem !important;
+    }
+  }
+  .name {
+    font-size: 3.5rem !important;
+  }
+  .role {
+    font-size: 2.1rem !important;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+  .connect {
+    width: 33% !important;
+  }
+}
